@@ -18,7 +18,7 @@ Prioriteti su napravljeni da budu prikazani pomoću led dioda:
 #define LED1 // Žuta (niski prioritet)
 
 ###3. Funkcionalnosti
-ID 	Opis funkcionalnosti
+| ID | Opis funkcionalnosti
 FR-1 	Upravljanje LED-icama: Crvena (INT0), Žuta (INT1), Zelena (INT2), Plava (senzor), Bijela (timer).
 FR-2 	Detekcija pritiska na tipkala (INT0, INT1, INT2) i generiranje prekida.
 FR-3 	Mjerenje udaljenosti pomoću HC-SR04 senzora i generiranje prekida ako je udaljenost manja od 100 cm.
@@ -35,13 +35,22 @@ FR-11 	Testiranje istovremenog okidanja svih prekida i provjera hijerarhije prio
 - Dodavanje prioriteta prekidima
 - Korištenje millis() naredbe umjesto delay()
 - Upravljanje više prekida u jednome trenutku
+- 
 - Debounce mehanizam protiv grešaka
 ### Naslov 3
 
-*Kurziv* ili _Kurziv_
-**Podebljano** ili __Podebljano__
-
+| ID FUNKCIONALNOSTI    | OPIS       |
+|----------------|----------------|
+| Redak 1, Ćelija 1 | Redak 1, Ćelija 2 | Redak 1, Ćelija 3 |
+| Redak 2, Ćelija 1 | Redak 2, Ćelija 2 | Redak 2, Ćelija 3 |
+| Redak 3, Ćelija 1 | Redak 3, Ćelija 2 | Redak 3, Ćelija 3 |
+| Redak 4, Ćelija 1 | Redak 4, Ćelija 2 | Redak 4, Ćelija 3 |
+| Redak 5, Ćelija 1 | Redak 5, Ćelija 2 | Redak 5, Ćelija 3 |
+| Redak 6, Ćelija 1 | Redak 6, Ćelija 2 | Redak 6, Ćelija 3 |
+| Redak 7, Ćelija 1 | Redak 7, Ćelija 2 | Redak 7, Ćelija 3 |
+| Redak 8, Ćelija 1 | Redak 8, Ćelija 2 | Redak 8, Ćelija 3 |
+| Redak 9, Ćelija 1 | Redak 9, Ćelija 2 | Redak 9, Ćelija 3 |
+| Redak 10, Ćelija 1| Redak 10, Ćelija 2| Redak 10, Ćelija 3|
 - Neuređena lista
-1. Uređena lista
 
 [Link](https://wokwi.com/projects/427255141919498241)
