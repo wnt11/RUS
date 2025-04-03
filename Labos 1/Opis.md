@@ -41,8 +41,8 @@ FR-11 	Testiranje istovremenog okidanja svih prekida i provjera hijerarhije prio
 
 | ID FUNKCIONALNOSTI    | OPIS       |
 |----------------|----------------|
-| Redak 1, Ćelija 1 | Redak 1, Ćelija 2 | Redak 1, Ćelija 3 |
-| Redak 2, Ćelija 1 | Redak 2, Ćelija 2 | Redak 2, Ćelija 3 |
+| FR1 | Sustav mora detektirati pritiske tipkala (TIPKA1, TIPKA2) i aktivirati odgovarajuću LED diodu. 
+| FR2 | Redak 2, Ćelija 1 |
 | Redak 3, Ćelija 1 | Redak 3, Ćelija 2 | Redak 3, Ćelija 3 |
 | Redak 4, Ćelija 1 | Redak 4, Ćelija 2 | Redak 4, Ćelija 3 |
 | Redak 5, Ćelija 1 | Redak 5, Ćelija 2 | Redak 5, Ćelija 3 |
