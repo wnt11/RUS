@@ -44,4 +44,4 @@ FR-11 	Testiranje istovremenog okidanja svih prekida i provjera hijerarhije prio
 - Neuređena lista
 1. Uređena lista
 
-[Link]([https://example.com](https://wokwi.com/projects/427255141919498241))
+[Link](https://wokwi.com/projects/427255141919498241)
