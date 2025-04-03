@@ -4,25 +4,20 @@ U ovome zadatku treba napraviti sustav koji koristi prekide za obradu ulaznih si
 
 ### 2. Opis projekta
 
-Projekt je napravlen tako da svaki pritisak gumba ili smanjenje udaljenosti pokreće prekid. Osim fizičkih prekida također je integriran i softverski tajmer koji ima najveći prioritet.
+Projekt je napravljen tako da svaki pritisak gumba pokreće prekid.
 
-Ovaj projekt implementira upravljanje prekidima pomoću mikrokontrolera, koristeći tipkala, senzor udaljenosti i tajmer.
+Ovaj projekt implementira upravljanje prekidima pomoću mikrokontrolera i tipkala
 
 Glavni ciljevi su detekcija prekida, njihova obrada prema prioritetima i vizualizacija statusa pomoću LED-ica.
 
-Projekt je koristan za učenje rada s prekidima, senzorima i serijskom komunikacijom te može poslužiti kao temelj za složenije sustave upravljanja događajima u ugrađenim sustavima.
+Projekt je koristan za učenje rada s prekidima, senzorima i serijskom komunikacijom te može poslužiti kao temelj za složenije sustave kod priroritizitanja u ugrađenim sustavima.
 Prioriteti su napravljeni da budu prikazani pomoću led dioda:
 
-#define LED_INT0 13 // Crvena (visoki prioritet)
+#define LED2 // Crvena (visoki prioritet)
 
-#define LED_INT1 12 // Žuta (srednji prioritet)
+#define LED1 // Žuta (niski prioritet)
 
-#define LED_INT2 11 // Zelena (niski prioritet)
-
-#define LED_Sensor 10 // Plava (najniži prioritet)
-
-#define LED_Timer 9 // Bijela (timer - najviši prioritet)
-3. Funkcionalnosti
+###3. Funkcionalnosti
 ID 	Opis funkcionalnosti
 FR-1 	Upravljanje LED-icama: Crvena (INT0), Žuta (INT1), Zelena (INT2), Plava (senzor), Bijela (timer).
 FR-2 	Detekcija pritiska na tipkala (INT0, INT1, INT2) i generiranje prekida.
@@ -50,6 +45,3 @@ FR-11 	Testiranje istovremenog okidanja svih prekida i provjera hijerarhije prio
 1. Uređena lista
 
 [Link]([https://example.com](https://wokwi.com/projects/427255141919498241))
-![Slika](image.png)
-
-`Kod u jednoj liniji`
