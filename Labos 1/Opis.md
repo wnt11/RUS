@@ -1,7 +1,8 @@
-1. Opis zadatka
+### 1. Opis zadatka
 
 U ovome zadatku treba napraviti sustav koji koristi prekide za obradu ulaznih signala s tipkala i mjerača udaljenosti te generira vizualne indikacije pomoću LED dioda.
-2. Opis projekta
+
+### 2. Opis projekta
 
 Projekt je napravlen tako da svaki pritisak gumba ili smanjenje udaljenosti pokreće prekid. Osim fizičkih prekida također je integriran i softverski tajmer koji ima najveći prioritet.
 
@@ -40,3 +41,15 @@ FR-11 	Testiranje istovremenog okidanja svih prekida i provjera hijerarhije prio
 - Korištenje millis() naredbe umjesto delay()
 - Upravljanje više prekida u jednome trenutku
 - Debounce mehanizam protiv grešaka
+### Naslov 3
+
+*Kurziv* ili _Kurziv_
+**Podebljano** ili __Podebljano__
+
+- Neuređena lista
+1. Uređena lista
+
+[Link]([https://example.com](https://wokwi.com/projects/427255141919498241))
+![Slika](image.png)
+
+`Kod u jednoj liniji`
