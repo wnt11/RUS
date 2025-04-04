@@ -17,40 +17,5 @@ Prioriteti su napravljeni da budu prikazani pomoću led dioda:
 
 #define LED1 // Žuta (niski prioritet)
 
-###3. Funkcionalnosti
-| ID | Opis funkcionalnosti
-FR-1 	Upravljanje LED-icama: Crvena (INT0), Žuta (INT1), Zelena (INT2), Plava (senzor), Bijela (timer).
-FR-2 	Detekcija pritiska na tipkala (INT0, INT1, INT2) i generiranje prekida.
-FR-3 	Mjerenje udaljenosti pomoću HC-SR04 senzora i generiranje prekida ako je udaljenost manja od 100 cm.
-FR-4 	Konfiguracija Timer1 za generiranje prekida svake sekunde (najviši prioritet).
-FR-5 	Obrada prekida prema prioritetima: Timer1 > INT0 > INT1 > INT2 > senzor udaljenosti.
-FR-6 	Vizualizacija aktivnih prekida pomoću odgovarajućih LED-ica.
-FR-7 	Debounce mehanizam za tipkala kako bi se izbjeglo višestruko okidanje prekida.
-FR-8 	Serial komunikacija za ispisivanje poruka o aktivnim prekidima.
-FR-9 	Automatsko gašenje svih LED-ica prilikom aktivacije prekida višeg prioriteta.
-FR-10 	Bljeskajuća LED-ica (plava) kao indikacija alarmnog stanja zbog blizine predmeta.
-FR-11 	Testiranje istovremenog okidanja svih prekida i provjera hijerarhije prioriteta.
-4. Što sam naučio radeći ovaj projekt
-- Integriranje prekida na Arduino MEGA
-- Dodavanje prioriteta prekidima
-- Korištenje millis() naredbe umjesto delay()
-- Upravljanje više prekida u jednome trenutku
-- 
-- Debounce mehanizam protiv grešaka
-### Naslov 3
-
-| ID FUNKCIONALNOSTI    | OPIS       |
-|----------------|----------------|
-| FR1 | Sustav mora detektirati pritiske tipkala (TIPKA1, TIPKA2) i aktivirati odgovarajuću LED diodu. 
-| FR2 | Redak 2, Ćelija 1 |
-| Redak 3, Ćelija 1 | Redak 3, Ćelija 2 | Redak 3, Ćelija 3 |
-| Redak 4, Ćelija 1 | Redak 4, Ćelija 2 | Redak 4, Ćelija 3 |
-| Redak 5, Ćelija 1 | Redak 5, Ćelija 2 | Redak 5, Ćelija 3 |
-| Redak 6, Ćelija 1 | Redak 6, Ćelija 2 | Redak 6, Ćelija 3 |
-| Redak 7, Ćelija 1 | Redak 7, Ćelija 2 | Redak 7, Ćelija 3 |
-| Redak 8, Ćelija 1 | Redak 8, Ćelija 2 | Redak 8, Ćelija 3 |
-| Redak 9, Ćelija 1 | Redak 9, Ćelija 2 | Redak 9, Ćelija 3 |
-| Redak 10, Ćelija 1| Redak 10, Ćelija 2| Redak 10, Ćelija 3|
-- Neuređena lista
 
 [Link](https://wokwi.com/projects/427255141919498241)
