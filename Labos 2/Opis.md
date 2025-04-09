@@ -37,6 +37,6 @@ Sustav ostaje u sleep mode sve dok se ne pritisne tipkalo (spojeno na pin 23) il
  - Korištenje prekida za izlazak iz sleep mode-a
  - Korištenje unutarnjeg brojača (tajmer) kako bi se se moglo pratiti vrijeme u sleep modu
 
-[Link na projekt] (https://wokwi.com/projects/427795277435780097).
+[Link] (https://wokwi.com/projects/427795277435780097).
 
 
