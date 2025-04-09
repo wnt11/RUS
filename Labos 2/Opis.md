@@ -2,7 +2,7 @@
 U ovome zadatku potrebno je prikazati korištenje sleep mode funkcija na mikrokontroleru ESP32.
 
 ### 2. Opis projekta
-U ovom projektu je implementiran sustav za upravljanje energijom koristeći sleep modeove na mikrokontroleru ESP32. 
+U ovom projektu je implementiran sustav za upravljanje energijom koristeći sleep mode na mikrokontroleru ESP32. 
 
 #define LED
 
