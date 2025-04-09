@@ -3,9 +3,11 @@ U ovome zadatku potrebno je prikazati korištenje sleep mode funkcija na mikroko
 
 ### 2. Opis projekta
 U ovom projektu je implementiran sustav za upravljanje energijom koristeći sleep modeove na mikrokontroleru ESP32. 
+
 #define LED
 
 #define TIPKALO
+
 Projekt je napravljen tako da kada se pokrene program LED dioda (spojena na pin 32) se upali te nakon 5 sekundi sustav prelazi u energetski efikasni sleep mode.
 Sustav ostaje u sleep mode sve dok se ne pritisne tipkalo (spojeno na pin 23) ili dok ne prođe 10 sekundi od početka sleep moda.
 
