@@ -8,7 +8,8 @@ U ovom projektu je implementiran sustav za upravljanje energijom koristeći slee
 
 #define TIPKALO
 
-Projekt je napravljen tako da kada se pokrene program LED dioda (spojena na pin 32) se upali te nakon 5 sekundi sustav prelazi u energetski efikasni sleep mode.
+Projekt je napravljen da kada se pokrene program LED dioda (spojena na pin 32) se upali, a nakon 5 sekundi sustav prelazi u sleep mode.
+
 Sustav ostaje u sleep mode sve dok se ne pritisne tipkalo (spojeno na pin 23) ili dok ne prođe 10 sekundi od početka sleep moda.
 
 ### 3. Funkcionalnosti
