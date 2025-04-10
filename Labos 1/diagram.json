@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "Uri Shaked",
+  "author": "Lucija",
   "editor": "wokwi",
   "parts": [
     { "type": "wokwi-breadboard", "id": "bb1", "top": -60.6, "left": -189.2, "attrs": {} },
