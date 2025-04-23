@@ -21,13 +21,13 @@ void setup() {
   // Konfiguracija pinova
   pinMode(trigPin, OUTPUT);
   pinMode(echoPin, INPUT);
-  pinMode(tipkalo, INPUT_PULLUP);  // Koristimo pullup otpornik
+  pinMode(tipkalo, INPUT_PULLUP);  
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop() {
   // Čitanje stanja tipkala
-  if(digitalRead(tipkalo) == LOW) {  // Pretpostavka da tipkalo spaja na GND kada je pritisnuto
+  if(digitalRead(tipkalo) == LOW) {  
     digitalWrite(LED_BUILTIN, LOW);
     Serial.print("Pritisnuta je tipka");
     delay(10000);
@@ -65,7 +65,7 @@ void loop() {
     Serial.print("Received:");
     Serial.println(receivedChar);
 
-    if(receivedChar == '1') {  // Koristimo znakove umjesto brojeva
+    if(receivedChar == '1') {  
       Serial.println("Bluetooth je uspješno povezan");
     }
     
