@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "author": "Lucija",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-half", "id": "bb1", "top": -70.2, "left": -54.8, "attrs": {} },
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 202.2, "left": -58.2, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 9,
+      "left": 51,
+      "rotate": 90,
+      "attrs": { "color": "green", "xray": "1" }
+    },
+    { "type": "wokwi-hc-sr04", "id": "ultrasonic1", "top": -36.9, "left": 149.5, "attrs": {} }
+  ],
+  "connections": [
+    [ "uno:GND.2", "bb1:bn.1", "black", [ "v57.5", "h-216.9", "v-307.2" ] ],
+    [ "uno:5V", "bb1:bp.1", "red", [ "v153.5", "h-274.6", "v-422.4" ] ],
+    [ "uno:8", "bb1:14b.j", "green", [ "v0" ] ],
+    [ "bb1:bn.10", "bb1:12b.i", "black", [ "v0" ] ],
+    [ "bb1:bp.22", "bb1:27b.h", "red", [ "v0" ] ],
+    [ "bb1:bn.25", "bb1:30b.j", "black", [ "v0" ] ],
+    [ "uno:4", "bb1:28b.j", "blue", [ "v-38.4", "h71.1" ] ],
+    [ "uno:5", "bb1:29b.j", "gold", [ "v-48", "h90.2" ] ],
+    [ "btn1:1.l", "bb1:14t.c", "", [ "$bb" ] ],
+    [ "btn1:2.l", "bb1:12t.c", "", [ "$bb" ] ],
+    [ "btn1:1.r", "bb1:14b.h", "", [ "$bb" ] ],
+    [ "btn1:2.r", "bb1:12b.h", "", [ "$bb" ] ],
+    [ "ultrasonic1:VCC", "bb1:27b.g", "", [ "$bb" ] ],
+    [ "ultrasonic1:TRIG", "bb1:28b.g", "", [ "$bb" ] ],
+    [ "ultrasonic1:ECHO", "bb1:29b.g", "", [ "$bb" ] ],
+    [ "ultrasonic1:GND", "bb1:30b.g", "", [ "$bb" ] ]
+  ],
+  "dependencies": {}
+}
