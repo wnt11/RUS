@@ -19,7 +19,6 @@ Cilj projekta je razviti siguran, pouzdan i lako implementiran sustav za nadzor 
 | FR-4  | Primanje podataka preko BT                 |
 | FR-5  | Mjerenje udaljenosti senzorom	             |
 | FR-6  | Detekcija prisutnosti vlasnika preko BT    |
-| FR-7  | Reset stanja preko BT                      |
 
 ## Potencijalna korist projekta
 •	Mogućnost praćenja napunjenosti spremnika smeća
