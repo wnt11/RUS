@@ -4,7 +4,7 @@ Sustav za nadzor i praćenje spremnika smeća je ugradbeni sustav razvijen na pl
 ...
 
 ## Slika sustava
-[Nadzor spremnika za smeće](https://wokwi.com/projects/429018523090228225)
+[slika_sustava](https://github.com/wnt11/RUS/blob/main/Nadzor_i_pra%C4%87enje_spremnika_sme%C4%87a/slika_sustava.png)
 
 ## Cilj projekta
 Cilj projekta je razviti siguran, pouzdan i lako implementiran sustav za nadzor i praćenej spremnika smeća.
