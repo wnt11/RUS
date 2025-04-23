@@ -12,8 +12,6 @@ int tipkalo = 8;
 // Inicijaliziranje za primanje podataka sa Bluetooth
 int receivedChar;
 
-int brojac = 0;
-
 void setup() {
   // Pokretanje Bluetooth-a na mikrokontroleru
   Serial.begin(9600);
@@ -30,6 +28,8 @@ void setup() {
 void loop() {
   // Čitanje stanja tipkala
   if(digitalRead(tipkalo) == LOW) {  // Pretpostavka da tipkalo spaja na GND kada je pritisnuto
+    digitalWrite(LED_BUILTIN, LOW);
+    Serial.print("Pritisnuta je tipka");
     delay(10000);
     if(digitalRead(tipkalo) == LOW) {
       delay(5000);
@@ -65,24 +65,28 @@ void loop() {
     Serial.print("Received:");
     Serial.println(receivedChar);
 
-    if(receivedChar == '185') {  // Koristimo znakove umjesto brojeva
+    if(receivedChar == '1') {  // Koristimo znakove umjesto brojeva
       Serial.println("Bluetooth je uspješno povezan");
     }
     
-    if(receivedChar == '210') {
+    if(receivedChar == '2') {
       Serial.println("Vlasnik je doma");
-      brojac++;
     }
     
-    if(receivedChar == '220') {
+    if(receivedChar == '3') {
       digitalWrite(LED_BUILTIN, HIGH);
     }
     
-    if(receivedChar == '230') {
+    if(receivedChar == '4') {
       digitalWrite(LED_BUILTIN, LOW);
       brojac = 0;
     }
+  if(receivedChar == '5') {
+      Serial.println("Vlasnik odlazi od doma");
+      pinMode(LED_BUILTIN, LOW);
+    }
   }
-  
+  }
+  }
   delay(500);  // Manji delay za bolju responzivnost
 }
