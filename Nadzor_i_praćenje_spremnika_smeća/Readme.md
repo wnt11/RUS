@@ -1,7 +1,6 @@
-# RUS--Nadzor i praćenje spremnika smeća
+# RUS-Nadzor i praćenje spremnika smeća
 ## Opis sustava
 Sustav za nadzor i praćenje spremnika smeća je ugradbeni sustav razvijen na platformi Arduino. Sustav je napravljen u svrhu provjere napunjenosti spremnika smeća te upozorava korisnika ako je kkod kuće (spojen je na BT) ako je u spremniku ostalo malo slobodnog mjesta. U svrhu projekta napravljena je poesbna aplikacija sa kojom se preko BT šalju signali mikrokontroleru te se time postiže minimalna potrošnja energije.
-...
 
 ## Slika sustava
 ![slika_sustava](https://github.com/wnt11/RUS/blob/main/Nadzor_i_pra%C4%87enje_spremnika_sme%C4%87a/slika_sustava.png)
